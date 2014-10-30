@@ -16,6 +16,7 @@ public class CatController : StatefulMonobehaviour
         inputManager = FindObjectOfType<InputManager>();
         FindObjectOfType<GameHandler>().OnChangeState += OnGameHandlerChangeState;
         DeathTrigger.OnDeath += DeadCatClone;
+		GasTrigger.OnDeath += DeadCatClone;
         catInventory.OnAddCoin += CheckCoinForExtraLife;
 
         InitializeStatefulness(true);

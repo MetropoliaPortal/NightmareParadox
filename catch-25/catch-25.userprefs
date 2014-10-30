@@ -1,10 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\General\InputManager.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Level1\GasTrigger.cs">
     <Files>
-      <File FileName="Assets\scripts\General\InputManager.cs" Line="22" Column="3" />
-      <File FileName="Assets\scripts\CatScript\CatController.cs" Line="1" Column="1" />
-      <File FileName="Assets\scripts\CatScript\CatMove.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\Level1\DeathTrigger.cs" Line="77" Column="13" />
+      <File FileName="Assets\scripts\General\GameHandler.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\General\PauseHandler.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\General\StatefulMonobehaviour.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\Level1\TriggerRock.cs" Line="21" Column="6" />
+      <File FileName="Assets\Scripts\ChallengeMessage.cs" Line="24" Column="5" />
+      <File FileName="Assets\Scripts\Level1\GasTrigger.cs" Line="22" Column="7" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

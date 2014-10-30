@@ -19,7 +19,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_4_6_0;UNITY_4_6;UNITY_WEBPLAYER;WEBPLUG;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_PRO_LICENSE</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_0;UNITY_4_6;UNITY_WEBPLAYER;WEBPLUG;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -46,30 +46,31 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\AudioManager.cs" />
-     <Compile Include="Assets\Scripts\CatScript\CatController.cs" />
-     <Compile Include="Assets\Scripts\CatScript\CatHealth.cs" />
-     <Compile Include="Assets\Scripts\CatScript\CatInventory.cs" />
-     <Compile Include="Assets\Scripts\CatScript\CatMove.cs" />
-     <Compile Include="Assets\Scripts\ChallengeMessage.cs" />
-     <Compile Include="Assets\Scripts\Collectible\Coin.cs" />
-     <Compile Include="Assets\Scripts\Collectible\Collectible.cs" />
-     <Compile Include="Assets\Scripts\General\CameraSmoothFollow.cs" />
-     <Compile Include="Assets\Scripts\General\FadeController.cs" />
-     <Compile Include="Assets\Scripts\General\GameHandler.cs" />
-     <Compile Include="Assets\Scripts\General\InputManager.cs" />
-     <Compile Include="Assets\Scripts\General\PauseHandler.cs" />
-     <Compile Include="Assets\Scripts\General\StatefulMonobehaviour.cs" />
-     <Compile Include="Assets\Scripts\General\Utility.cs" />
-     <Compile Include="Assets\Scripts\GuiScore.cs" />
-     <Compile Include="Assets\Scripts\IntroManager.cs" />
-     <Compile Include="Assets\Scripts\Level1\DeathTrigger.cs" />
-     <Compile Include="Assets\Scripts\Level1\TriggerRock.cs" />
-     <Compile Include="Assets\Scripts\LoadingScreen.cs" />
-     <Compile Include="Assets\Scripts\followingLight.cs" />
-     <Compile Include="Assets\Scripts\glowingLight.cs" />
+     <Compile Include="Assets\scripts\AudioManager.cs" />
+     <Compile Include="Assets\scripts\CatScript\CatController.cs" />
+     <Compile Include="Assets\scripts\CatScript\CatHealth.cs" />
+     <Compile Include="Assets\scripts\CatScript\CatInventory.cs" />
+     <Compile Include="Assets\scripts\CatScript\CatMove.cs" />
+     <Compile Include="Assets\scripts\ChallengeMessage.cs" />
+     <Compile Include="Assets\scripts\Collectible\Coin.cs" />
+     <Compile Include="Assets\scripts\Collectible\Collectible.cs" />
+     <Compile Include="Assets\scripts\General\CameraSmoothFollow.cs" />
+     <Compile Include="Assets\scripts\General\FadeController.cs" />
+     <Compile Include="Assets\scripts\General\GameHandler.cs" />
+     <Compile Include="Assets\scripts\General\InputManager.cs" />
+     <Compile Include="Assets\scripts\General\PauseHandler.cs" />
+     <Compile Include="Assets\scripts\General\StatefulMonobehaviour.cs" />
+     <Compile Include="Assets\scripts\General\Utility.cs" />
+     <Compile Include="Assets\scripts\GuiScore.cs" />
+     <Compile Include="Assets\scripts\IntroManager.cs" />
+     <Compile Include="Assets\scripts\Level1\DeathTrigger.cs" />
+     <Compile Include="Assets\scripts\Level1\GasTrigger.cs" />
+     <Compile Include="Assets\scripts\Level1\TriggerRock.cs" />
+     <Compile Include="Assets\scripts\LoadingScreen.cs" />
+     <Compile Include="Assets\scripts\followingLight.cs" />
+     <Compile Include="Assets\scripts\glowingLight.cs" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/Lucas/Documents/NightmareParadox/catch-25/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/Tyko/Documents/GitHub/NightmareParadox/catch-25/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
